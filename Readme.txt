@@ -1,30 +1,32 @@
-×î¼òµ¥µÄ»ùÓÚFFmpegµÄÒÆ¶¯¶ËÀı×Ó
+æœ€ç®€å•çš„åŸºäºFFmpegçš„ç§»åŠ¨ç«¯ä¾‹å­
 Simplest FFmpeg Mobile
 
-À×Ïöæè Lei Xiaohua
-leixiaohua1020@126.com
-ÖĞ¹ú´«Ã½´óÑ§/Êı×ÖµçÊÓ¼¼Êõ
-Communication University of China / Digital TV Technology
-http://blog.csdn.net/leixiaohua1020
 
-±¾½â¾ö·½°¸°üº¬ÁËÊ¹ÓÃFFmpegÔÚÒÆ¶¯¶Ë´¦Àí¶àÃ½ÌåµÄ¸÷ÖÖÀı×Ó£º
+# æœ¬è§£å†³æ–¹æ¡ˆåŒ…å«äº†ä½¿ç”¨FFmpegåœ¨ç§»åŠ¨ç«¯å¤„ç†å¤šåª’ä½“çš„å„ç§ä¾‹å­ï¼š
+
+
 [Android]
-simplest_android_player: »ùÓÚ°²×¿½Ó¿ÚµÄÊÓÆµ²¥·ÅÆ÷
-simplest_ffmpeg_android_helloworld: °²×¿Æ½Ì¨ÏÂ»ùÓÚFFmpegµÄHelloWorld³ÌĞò
-simplest_ffmpeg_android_decoder: °²×¿Æ½Ì¨ÏÂ×î¼òµ¥µÄ»ùÓÚFFmpegµÄÊÓÆµ½âÂëÆ÷
-simplest_ffmpeg_android_decoder_onelib: °²×¿Æ½Ì¨ÏÂ×î¼òµ¥µÄ»ùÓÚFFmpegµÄÊÓÆµ½âÂëÆ÷-µ¥¿â°æ
-simplest_ffmpeg_android_streamer: °²×¿Æ½Ì¨ÏÂ×î¼òµ¥µÄ»ùÓÚFFmpegµÄÍÆÁ÷Æ÷
-simplest_ffmpeg_android_transcoder: °²×¿Æ½Ì¨ÏÂÒÆÖ²µÄFFmpegÃüÁîĞĞ¹¤¾ß
-simplest_sdl_android_helloworld: ÒÆÖ²SDLµ½°²×¿Æ½Ì¨µÄ×î¼òµ¥³ÌĞò
-[IOS]
-simplest_ios_player: »ùÓÚIOS½Ó¿ÚµÄÊÓÆµ²¥·ÅÆ÷
-simplest_ffmpeg_ios_helloworld: IOSÆ½Ì¨ÏÂ»ùÓÚFFmpegµÄHelloWorld³ÌĞò
-simplest_ffmpeg_ios_decoder: IOSÆ½Ì¨ÏÂ×î¼òµ¥µÄ»ùÓÚFFmpegµÄÊÓÆµ½âÂëÆ÷
-simplest_ffmpeg_ios_streamer: IOSÆ½Ì¨ÏÂ×î¼òµ¥µÄ»ùÓÚFFmpegµÄÍÆÁ÷Æ÷
-simplest_ffmpeg_ios_transcoder: IOSÆ½Ì¨ÏÂÒÆÖ²µÄffmpeg.cÃüÁîĞĞ¹¤¾ß
-simplest_sdl_ios_helloworld: ÒÆÖ²SDLµ½IOSÆ½Ì¨µÄ×î¼òµ¥³ÌĞò
+simplest_android_player: åŸºäºå®‰å“æ¥å£çš„è§†é¢‘æ’­æ”¾å™¨
+simplest_ffmpeg_android_helloworld: å®‰å“å¹³å°ä¸‹åŸºäºFFmpegçš„HelloWorldç¨‹åº
+simplest_ffmpeg_android_decoder: å®‰å“å¹³å°ä¸‹æœ€ç®€å•çš„åŸºäºFFmpegçš„è§†é¢‘è§£ç å™¨
+simplest_ffmpeg_android_decoder_onelib: å®‰å“å¹³å°ä¸‹æœ€ç®€å•çš„åŸºäºFFmpegçš„è§†é¢‘è§£ç å™¨-å•åº“ç‰ˆ
+simplest_ffmpeg_android_streamer: å®‰å“å¹³å°ä¸‹æœ€ç®€å•çš„åŸºäºFFmpegçš„æ¨æµå™¨
+simplest_ffmpeg_android_transcoder: å®‰å“å¹³å°ä¸‹ç§»æ¤çš„FFmpegå‘½ä»¤è¡Œå·¥å…·
+simplest_sdl_android_helloworld: ç§»æ¤SDLåˆ°å®‰å“å¹³å°çš„æœ€ç®€å•ç¨‹åº
+# [IOS]
+
+simplest_ios_player: åŸºäºIOSæ¥å£çš„è§†é¢‘æ’­æ”¾å™¨
+
+simplest_ffmpeg_ios_helloworld: IOSå¹³å°ä¸‹åŸºäºFFmpegçš„HelloWorldç¨‹åº
+simplest_ffmpeg_ios_decoder: IOSå¹³å°ä¸‹æœ€ç®€å•çš„åŸºäºFFmpegçš„è§†é¢‘è§£ç å™¨
+simplest_ffmpeg_ios_streamer: IOSå¹³å°ä¸‹æœ€ç®€å•çš„åŸºäºFFmpegçš„æ¨æµå™¨ https://blog.csdn.net/leixiaohua1020/article/details/47072519
+simplest_ffmpeg_ios_transcoder: IOSå¹³å°ä¸‹ç§»æ¤çš„ffmpeg.cå‘½ä»¤è¡Œå·¥å…·
+simplest_sdl_ios_helloworld: ç§»æ¤SDLåˆ°IOSå¹³å°çš„æœ€ç®€å•ç¨‹åº
+
+
+
 [Windows]
-simplest_ffmpeg_windowsphone_helloworld: Windows PhoneÆ½Ì¨ÏÂ»ùÓÚFFmpegµÄHelloWorld³ÌĞò
+simplest_ffmpeg_windowsphone_helloworld: Windows Phoneå¹³å°ä¸‹åŸºäºFFmpegçš„HelloWorldç¨‹åº
 
 This project contains examples about handling multi-media data based on FFmpeg on mobile devices.
 [Android]
@@ -44,3 +46,6 @@ simplest_ffmpeg_ios_transcoder: Transcoder transplant from ffmpeg.c in IOS.
 simplest_sdl_ios_helloworld: Simplest program based on SDL in IOS.
 [Windows]
 simplest_ffmpeg_windowsphone_helloworld: Simplest HelloWorld program based on FFmpeg in Windows Phone platform.
+
+
+http://blog.csdn.net/leixiaohua1020
